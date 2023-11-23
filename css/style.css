@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.514);
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-netflix{
+    width: 60px;
+}
+
+.contenedor-lenguale-sesion{
+    display: flex;
+    align-items: center;
+}
+
+.btn-sesion{
+    margin: 5px;
+    width: 100px;
+    height: 20px;
+    color: white;
+    background-color: #e50914;
+    border-radius: 4px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.btn-sesion:hover{
+    background-color: #b9232a;
+}
+
+.btn-sesion:active{
+    background-color: #7a191d;
+}
+
+/* 
+.e1, .e2, .e3, h1, #este-es{
+    color: red;
+} */
