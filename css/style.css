@@ -1,15 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
 *{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
 }
 
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.8)), url("../assets/img-background.jpg");
+}
+
 nav{
-    background-color: rgba(0, 0, 0, 0.514);
     display: flex;
     justify-content: space-between;
 }
 
 .logo-netflix{
+    margin: 5px;
     width: 60px;
 }
 
@@ -18,10 +25,22 @@ nav{
     align-items: center;
 }
 
+#idioma{
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+}
+
+#idioma:focus{
+    outline: none;
+}
+
 .btn-sesion{
     margin: 5px;
     width: 100px;
-    height: 20px;
+    height: 30px;
     color: white;
     background-color: #e50914;
     border-radius: 4px;
@@ -35,6 +54,35 @@ nav{
 
 .btn-sesion:active{
     background-color: #7a191d;
+}
+
+section{
+    text-align: center;
+    color: white;
+    /* width: 100%; */
+    margin: 50px;
+    display: block;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h1, h2, h3{
+    margin: 10px;
+}
+
+h2, h3{
+    font-weight: 200;
+}
+
+.contenedor-input-btn{
+    margin: 20px;
+}
+
+.input-mail, .btn-mail{
+    width: 100px;
+    height: 30px;
 }
 
 /* 
