@@ -113,7 +113,8 @@ h1, .section-subtitulo, .section-subtitulo-dos{
 }
 
 .contenedor-tarjeta{
-    background-color: rgb(76, 32, 117);
+    /* background-color: rgb(76, 32, 117); */
+    background: linear-gradient(rgba(2, 2, 94, 0.541), rgba(68, 8, 68, 0.603));
     width: 210px;
     height: 280px;
     border-radius: 15px;
